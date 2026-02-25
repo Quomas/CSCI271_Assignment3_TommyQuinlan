@@ -11,7 +11,7 @@ import java.util.Scanner;
  * T(n) = O(n)
  */
 
-public class Q4_CountDigitInNumber {
+public class Question4 {
 
     public static int countDigit(long N, int D) {
         if (N == 0) {
