@@ -11,7 +11,7 @@ import java.util.Scanner;
  * Complexity = O(n)
  */
 
-public class Q3_MaxRecursive {
+public class Question3 {
 
     public static int max(int[] A, int n) {
         if (n == 1) {
