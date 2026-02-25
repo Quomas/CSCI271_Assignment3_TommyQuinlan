@@ -8,6 +8,9 @@ import java.util.Scanner;
  * T(n) = T(n-1) + c
  *
  * T(n) = O(n)
+ *
+ * Substring has a cost of O(n) so
+ * Complexity = O(n^2)
  */
 
 public class Question1 {
