@@ -17,10 +17,11 @@ import java.util.Scanner;
 public class Question5 {
 
     public static String reverse(String s) {
+        // base case (empty string)
         if (s.equals("")) {
             return "";
         }
-
+        // Reverse the string recursively using the substring function
         return reverse(s.substring(1)) + s.charAt(0);
     }
 
