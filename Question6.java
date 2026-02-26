@@ -14,10 +14,11 @@ import java.util.Scanner;
 public class Question6 {
 
     public static int sumEven(int[] A, int n) {
+        // base case (if nothing is left sum is 0)
         if (n == 0) {
             return 0;
         }
-
+        // if the last number is even add it to the recursion if not then just call the function again
         if (A[n - 1] % 2 == 0) {
             return A[n - 1] + sumEven(A, n - 1);
         } else {
