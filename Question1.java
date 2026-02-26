@@ -16,9 +16,11 @@ import java.util.Scanner;
 public class Question1 {
 
     public static int recursiveLength(String s) {
+        // base case
         if (s.equals("")) {
             return 0;
         }
+        // recursive case (add 1 to the recursion of the rest of the string)
         return 1 + recursiveLength(s.substring(1));
     }
 
