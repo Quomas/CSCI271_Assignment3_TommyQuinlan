@@ -1,0 +1,20 @@
+Script started on 2026-02-25 23:41:02-05:00 [TERM="xterm-256color" TTY="/dev/pts/12" COLUMNS="120" LINES="46"]
+[?2004h]0;quinlant3@thur114-hp1: ~/CSCI271/CSCI271_Assignment3_TommyQuinlan[01;32mquinlant3@thur114-hp1[00m:[01;34m~/CSCI271/CSCI271_Assignment3_TommyQuinlan[00m$ java Question3
+[?2004lEnter number of elements: 5
+Enter integers:
+1 2 3 4 5
+Maximum value = 5
+[?2004h]0;quinlant3@thur114-hp1: ~/CSCI271/CSCI271_Assignment3_TommyQuinlan[01;32mquinlant3@thur114-hp1[00m:[01;34m~/CSCI271/CSCI271_Assignment3_TommyQuinlan[00m$ java Question3
+[?2004lEnter number of elements: 3
+Enter integers:
+-7 -1 -4
+Maximum value = -1
+[?2004h]0;quinlant3@thur114-hp1: ~/CSCI271/CSCI271_Assignment3_TommyQuinlan[01;32mquinlant3@thur114-hp1[00m:[01;34m~/CSCI271/CSCI271_Assignment3_TommyQuinlan[00m$ java Question3
+[?2004lEnter number of elements: 1
+Enter integers:
+100
+Maximum value = 100
+[?2004h]0;quinlant3@thur114-hp1: ~/CSCI271/CSCI271_Assignment3_TommyQuinlan[01;32mquinlant3@thur114-hp1[00m:[01;34m~/CSCI271/CSCI271_Assignment3_TommyQuinlan[00m$ exit
+[?2004lexit
+
+Script done on 2026-02-25 23:42:11-05:00 [COMMAND_EXIT_CODE="0"]

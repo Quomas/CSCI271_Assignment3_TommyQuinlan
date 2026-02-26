@@ -1,0 +1,17 @@
+Script started on 2026-02-25 23:42:32-05:00 [TERM="xterm-256color" TTY="/dev/pts/12" COLUMNS="120" LINES="46"]
+[?2004h]0;quinlant3@thur114-hp1: ~/CSCI271/CSCI271_Assignment3_TommyQuinlan[01;32mquinlant3@thur114-hp1[00m:[01;34m~/CSCI271/CSCI271_Assignment3_TommyQuinlan[00m$ jaca[K[Kva Question4
+[?2004lEnter a number (long): 12345678
+Enter a digit (0-9): 8
+Digit 8 appears 1 times.
+[?2004h]0;quinlant3@thur114-hp1: ~/CSCI271/CSCI271_Assignment3_TommyQuinlan[01;32mquinlant3@thur114-hp1[00m:[01;34m~/CSCI271/CSCI271_Assignment3_TommyQuinlan[00m$ java Question4
+[?2004lEnter a number (long): 88888
+Enter a digit (0-9): 8
+Digit 8 appears 5 times.
+[?2004h]0;quinlant3@thur114-hp1: ~/CSCI271/CSCI271_Assignment3_TommyQuinlan[01;32mquinlant3@thur114-hp1[00m:[01;34m~/CSCI271/CSCI271_Assignment3_TommyQuinlan[00m$ java Question4
+[?2004lEnter a number (long): 43198705894825143
+Enter a digit (0-9): 4
+Digit 4 appears 3 times.
+[?2004h]0;quinlant3@thur114-hp1: ~/CSCI271/CSCI271_Assignment3_TommyQuinlan[01;32mquinlant3@thur114-hp1[00m:[01;34m~/CSCI271/CSCI271_Assignment3_TommyQuinlan[00m$ exit
+[?2004lexit
+
+Script done on 2026-02-25 23:47:07-05:00 [COMMAND_EXIT_CODE="0"]
