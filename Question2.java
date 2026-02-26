@@ -17,13 +17,15 @@ import java.util.Scanner;
 public class Question2 {
 
     public static int countChar(String s, char c) {
+        // base case (string is empty)
         if (s.equals("")) {
             return 0;
         }
-
+        // either run recursion or add 1 to recursion if first char = c
         if (s.charAt(0) == c) {
             return 1 + countChar(s.substring(1), c);
         } else {
+            
             return countChar(s.substring(1), c);
         }
     }
@@ -43,9 +45,9 @@ public class Question2 {
 
         /*
          * Test Cases:
-         * 1. S = "mmmmm", C = 'm' → 5
-         * 2. S = "Recursion", C = 'z' → 0
-         * 3. S = "toooooool", C = 'o' → 7
+         * 1. S = "mmmmm", C = 'm' -> 5
+         * 2. S = "Recursion", C = 'z' -> 0
+         * 3. S = "toooooool", C = 'o' -> 7
          */
     }
 }
