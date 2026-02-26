@@ -14,12 +14,14 @@ import java.util.Scanner;
 public class Question4 {
 
     public static int countDigit(long N, int D) {
+        // base case
         if (N == 0) {
             return 0;
         }
-
+        // get last number with modulus
         int lastDigit = (int)(N % 10);
 
+        // either add 1 or do not(if last number is D) to recursion and remove the last digit
         if (lastDigit == D) {
             return 1 + countDigit(N / 10, D);
         } else {
