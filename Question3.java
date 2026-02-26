@@ -14,12 +14,13 @@ import java.util.Scanner;
 public class Question3 {
 
     public static int max(int[] A, int n) {
+        //base case
         if (n == 1) {
             return A[0];
         }
 
         int maxRest = max(A, n - 1);
-
+        // find max number with recursion
         return (A[n - 1] > maxRest) ? A[n - 1] : maxRest;
     }
 
